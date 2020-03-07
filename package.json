@@ -2,11 +2,11 @@
   "name": "Bustabit",
   "version": "2.0.0",
   "engines": {
-    "node": "10.x"
+    "node": "~0.12.0"
   },
   "scripts": {
     "start-dev": "env $(cat .env | xargs) nodemon server/index",
-    "start": "node server/index.js"
+    "start": "node server/index"
   },
   "dependencies": {
     "CBuffer": "^1.1.0",
